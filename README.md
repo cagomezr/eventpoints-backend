@@ -4,22 +4,25 @@
 
 ## Scraper
 
-El scraper está hecho con Scrapy, una librería de Python.
+Este es un scraper   y ha sido desarrollado con la  libreria Scrapy,de Python.
 
 #### Instalación
+Requerimientos Minimos:
+Para  instalar y ejecutar este projecto necesitas
 
-Versión recomendada de Python: 3.6
-Versión recomendada de Pip: 18.1
+Python Versión 3.6
+Pip Versión 18.1
 
-Creamos el venv
-
+Instrucciones: 
+Crear venv con el comando
+ 
 `python3 -m venv ./venv`
 
-Instalamos las dependencias
+necesitamos instalar las  dependencias despues con e comando 
 
 `pip3 install -r requirements.txt`
 
-Si usas Python 3.7, da un error que se puede solucionar ejecutando
+Si usas Python 3.7, da un error que se puede solucionar ejecutando el comando
 
 `pip3 install git+https://github.com/twisted/twisted.git@trunk`
 
